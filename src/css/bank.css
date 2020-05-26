@@ -1,0 +1,129 @@
+.main_content_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .main_content_wrapper .main_content_header{
+    background-color: #273035;
+    height: 50px;
+  }
+  
+  select option { color: black; }
+  select option:first-child { color: grey; }
+  select.empty { color: grey; }
+  select option[disabled]:first-child { display: none; }
+  
+  .main_content_page{
+    margin: 20px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    box-shadow: 4px 4px 4px gray;
+    padding: 0 30px 5px 30px;  
+    margin-left: 16%;
+  }
+  .bank_title_bar{
+    padding: 0 150px 0 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bank_title_bar p{
+    font-weight: bold;
+  }
+  .search_container{
+      position: relative;
+  }
+  .search_container i{
+      position: absolute;
+      left:22px;
+      top: 15px;
+      color: lightgrey;
+  }
+  
+  .bank_title_bar .search_tools{
+    display: flex;
+    padding: 10px;  
+  }
+  .bank_title_bar .search_tools input{
+    border: none;
+    border-bottom: 1px lightgrey solid;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    padding: 5px 0 5px 20px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .bank_title_bar .search_tools select{
+    border: none;
+    border-bottom: 1px lightgrey solid;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+  }
+  .bank_title_bar .search_tools{
+    margin: 0 10px;
+  }
+  .searchbar_input{
+    position: relative;
+  }
+  .searchbar i{
+    position: absolute;
+  }
+  .bank_title_bar .search_input{
+    font-size: 20px;
+    width: 150px;
+  }
+  
+  .bank_title_bar .search_tools_item{
+    margin: 0 20px;
+  }
+  
+  .main_content_page .bank_titles{
+    display: flex;
+    padding-left: 20px;
+    color: grey;
+    border-bottom: 1px solid lightgrey;
+    font-size: 17px;
+  }
+  .main_content_page .bank_content p{
+    display: flex;
+    padding-left: 20px;
+    font-size: 10px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .main_content_page .bank_content p i{
+    color: gold;
+    margin-right: 5px;
+  }
+  
+  .flex_item_0{
+    flex: 0.15;
+    text-align: left;
+  
+  }
+  .flex_item_1 {
+    flex: 1.3;
+    text-align: left;
+  
+  }
+  .flex_item_2{
+    flex: 0.8;
+    text-align: left;
+  
+  }
+  .flex_item_3{
+    flex: 0.8;
+    text-align: left;
+  
+  }
+  .flex_item_4{
+    flex: 0.5;
+    text-align: center;
+  }
+  .flex_item_5{
+    flex: 2;
+    text-align: center;
+  }
+  

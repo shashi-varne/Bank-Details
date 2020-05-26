@@ -1,0 +1,38 @@
+.pagination_wrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .pagination_wrapper .rows_per_page{
+    display: flex;
+    font-size: 15px;
+    margin-right: 25px;
+  }
+  
+  .pagination_wrapper .rows_per_page select{
+    border: transparent;
+    background: transparent;
+    width: 40px;
+    height: 30px;
+    transform: translateY(10px);
+    margin-left: 5px;
+    font-size: 16px;
+  }
+  .pagination_wrapper .pageCount{
+    margin-left: 20px;
+    transform: translateY(17px);
+  }
+  .page_button{
+    background: transparent;
+    border: transparent;
+    font-size: 18px;
+    margin: 0 2px;
+    cursor: pointer;
+  }
+
+.disable_button{
+  cursor: text  ;
+  display: none;
+}
